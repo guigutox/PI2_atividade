@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: white; /* cor de fundo da metade superior da página */
+    background-color: white; 
   }
   
   .page-wrapper {
@@ -10,15 +10,15 @@ body {
     bottom: 0;
     width: 100vw;
     height: 50vh;
-    background-color: rgb(255, 30, 0); /* cor de fundo da metade inferior da página */
+    background-color: rgb(255, 30, 0); 
   }
   
   .image-container {
     position: absolute;
-    top: 50%; /* posiciona a imagem na metade da página */
+    top: 50%; 
     left: 50%;
-    transform: translate(-50%, -50%); /* centraliza o contêiner */
-    z-index: 1; /* coloca o contêiner na frente do body, mas atrás do page-wrapper */
+    transform: translate(-50%, -50%);
+    z-index: 1; 
     display: flex;
     justify-content: space-evenly;
     width: 80%;
@@ -33,7 +33,7 @@ body {
     margin-right: 10px;
     display: inline-block;
     text-align: center;
-    z-index: 2; /* coloca o card na frente do body, mas atrás do page-wrapper */
+    z-index: 2; 
   }
   
   .card-bottom {
