@@ -5,16 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-
-      
-
-   
-
-      
-</head>
-<body>
     
+    <title>Document</title>
+ 
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<body>
+
         <div class="image-container">
           <div class="card">
             <img src="imagens/graduation-concept-with-portrait-happy-girl_23-2148201890.jpg" alt="Imagem 1">
@@ -35,6 +32,15 @@
       
 
       </div>
-    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+       
+              $(document).ready(function() {
+                $(".card").click(function(){
+                    $(this).fadeToggle();
+                });
+             });
+
+      </script>
 </body>
 </html>
