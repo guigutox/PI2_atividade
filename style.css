@@ -5,41 +5,19 @@ body {
     background-color: white; 
   }
   
-  .page-wrapper {
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    height: 50vh;
-    background-color: rgb(255, 30, 0); 
-  }
   
   .image-container {
     position: absolute;
-    top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1; 
-    display: flex;
-    justify-content: space-evenly;
-    width: 80%;
   }
   
-  .card {
-    width: 200px;
-    height: 250px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-    margin-right: 10px;
-    display: inline-block;
-    text-align: center;
-    z-index: 2; 
+  .img-card {
+    width: 185px;
+    height: 185px;
+    border-radius: 200px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+
   }
-  
-  .card-bottom {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
