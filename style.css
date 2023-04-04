@@ -7,11 +7,17 @@ body {
   
   
   .image-container {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
   }
   
+  .texto-container{
+
+    position: absolute;
+    padding-top: 100px;
+
+  }
+
+
   .img-card {
     width: 185px;
     height: 185px;
